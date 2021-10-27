@@ -1,14 +1,16 @@
 <template>
   <div id="app">
     <button>Exit</button>
+    <v-main-wrapper></v-main-wrapper>
   </div>
 </template>
 
 <script>
-
+import vMainWrapper from './components/v-main-wrapper'
 export default {
   name: 'App',
   components: {
+    vMainWrapper,
   }
 }
 </script>
